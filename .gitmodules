@@ -1,0 +1,9 @@
+[submodule "sources/covid-tracking-data"]
+	path = sources/covid-tracking-data
+	url = https://github.com/COVID19Tracking/covid-tracking-data.git
+[submodule "sources/COVID-19"]
+	path = sources/COVID-19
+	url = https://github.com/CSSEGISandData/COVID-19.git
+[submodule "sources/associated-data"]
+	path = sources/associated-data
+	url = https://github.com/COVID19Tracking/associated-data.git
