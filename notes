@@ -1,0 +1,11 @@
+Python and jupyter seem to have falled in to complete suck.
+
+No combination of things go jupyter lab to work on mac or linux mint.
+Suck.
+
+Hard core suckage:
+
+#sudo docker run -p 8888:8888 jupyter/scipy-notebook
+
+sudo docker run -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work jupyter/scipy-notebook
+
